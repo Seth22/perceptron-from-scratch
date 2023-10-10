@@ -30,4 +30,3 @@ def XOR_perceptron(input):
     p3 = perceptron([p1.heavyStep(),p2.heavyStep()],[-1,1],-0.5)
     return p3.heavyStep()
 
-
